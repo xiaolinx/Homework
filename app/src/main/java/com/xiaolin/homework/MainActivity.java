@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
                 startService(new Intent(MainActivity.this, RecorderService.class));
             }
         });
-        findViewById(R.id.startBtn).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.stopBtn).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //停止监听服务
